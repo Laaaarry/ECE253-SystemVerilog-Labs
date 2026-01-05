@@ -11,8 +11,7 @@ _start:
     jal  ra, ONES        # call ONES(a0); result returned in a0
 
     mv s10, a0
-END:
-    j    END
+END: j END
 
 # subroutine
 # Input : a0 = 32-bit value
